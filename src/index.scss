@@ -1,0 +1,48 @@
+.d-flex {
+	display: flex;
+}
+.f-family {
+	font-family: 'Space Mono';
+	font-style: normal;
+}
+.c-darkslategray {
+	color: #222731;
+}
+.c-slategray {
+	color: #697c9a;
+}
+.j-content {
+	justify-content: space-between;
+}
+.al-item {
+	align-items: center;
+}
+.f-size-26 {
+	font-size: 26px;
+	line-height: 39px;
+	font-weight: bold;
+}
+.mg-bottom {
+	margin-bottom: 19px;
+}
+
+[data-theme='dark'] {
+	--bg-color: #141d2f;
+	--text-color: #ffffff;
+	--input-color: #ffffff;
+	--bg-input-color: #1e2a47;
+}
+[data-theme='light'] {
+	--bg-color: #f6f8ff;
+	--text-color: #222731;
+	--input-color: #4b6a9b;
+	--text-mode-color: #697c9a;
+	--bg-input-color: #fefefe;
+	--box-shadow-color: 0px 16px 30px -10px rgba(70, 96, 187, 0.198567);
+	--user-name-color: #2b3442;
+}
+@media all and (max-width: 768px) {
+	.mg-bottom-mobile {
+		margin-bottom: 16px;
+	}
+}

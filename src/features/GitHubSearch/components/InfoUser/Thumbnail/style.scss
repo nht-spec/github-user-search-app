@@ -1,0 +1,19 @@
+.thumbnail-img {
+	margin-right: 37px;
+	display: inline-block;
+	.image {
+		width: 117px;
+		height: 117px;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+}
+@media all and (max-width: 768px) {
+	.thumbnail-img {
+		margin-right: 19px;
+		.image {
+			width: 70px;
+			height: 70px;
+		}
+	}
+}

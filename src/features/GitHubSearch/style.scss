@@ -1,0 +1,42 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.git-hub-search {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	height: auto;
+	.git-hub-search-control {
+		width: 730px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 50px;
+		padding-bottom: 100px;
+		.dark-mode {
+			cursor: pointer;
+			font-size: 13px;
+			line-height: 19px;
+			font-weight: bold;
+			letter-spacing: 2.5px;
+			color: var(--text-mode-color);
+			align-items: center;
+			img {
+				margin-left: 16px;
+			}
+		}
+	}
+}
+@media all and (max-width: 768px) {
+	.git-hub-search {
+		width: 100%;
+		height: 812px;
+		overflow: hidden;
+		.git-hub-search-control {
+			width: 100%;
+			margin: unset;
+			padding: 31px 24px 0 24px;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+.quality-control {
+	width: 100%;
+	background-color: var(--bg-color);
+	border-radius: 10px;
+	height: 85px;
+	padding-left: 32px;
+	padding-right: 83px;
+	margin-bottom: 37px;
+	.quality-text {
+		flex-direction: column;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 33px;
+		color: var(--user-name-color);
+		.text {
+			color: var(--input-color);
+			font-weight: normal;
+			font-size: 13px;
+			line-height: 19px;
+		}
+	}
+}
+
+@media all and (max-width: 768px) {
+	.quality-control {
+		width: 100%;
+		margin-bottom: 24px;
+		padding: 0 15px 0 14px;
+		.quality-text {
+			font-size: 16px;
+			line-height: 24px;
+			.text {
+				font-size: 11px;
+				line-height: 16px;
+			}
+		}
+	}
+}
